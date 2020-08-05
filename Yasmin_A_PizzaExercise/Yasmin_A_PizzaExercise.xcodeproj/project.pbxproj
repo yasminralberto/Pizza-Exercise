@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC83401524DA6C000095F22C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83401424DA6C000095F22C /* AppDelegate.swift */; };
+		CC83401724DA6C000095F22C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83401624DA6C000095F22C /* SceneDelegate.swift */; };
+		CC83401924DA6C000095F22C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83401824DA6C000095F22C /* ViewController.swift */; };
+		CC83401C24DA6C000095F22C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC83401A24DA6C000095F22C /* Main.storyboard */; };
+		CC83401E24DA6C010095F22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC83401D24DA6C010095F22C /* Assets.xcassets */; };
+		CC83402124DA6C010095F22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC83401F24DA6C010095F22C /* LaunchScreen.storyboard */; };
+		CC83402C24DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83402B24DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.swift */; };
+		CC83403724DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC83403624DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.swift */; };
+		CC83404524DA6FCC0095F22C /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC83404424DA6FCC0095F22C /* pizza.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC83402824DA6C010095F22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC83400924DA6C000095F22C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC83401024DA6C000095F22C;
+			remoteInfo = Yasmin_A_PizzaExercise;
+		};
+		CC83403324DA6C010095F22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC83400924DA6C000095F22C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC83401024DA6C000095F22C;
+			remoteInfo = Yasmin_A_PizzaExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC83401124DA6C000095F22C /* Yasmin_A_PizzaExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yasmin_A_PizzaExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83401424DA6C000095F22C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC83401624DA6C000095F22C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC83401824DA6C000095F22C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC83401B24DA6C000095F22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC83401D24DA6C010095F22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC83402024DA6C010095F22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC83402224DA6C010095F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC83402724DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yasmin_A_PizzaExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83402B24DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasmin_A_PizzaExerciseTests.swift; sourceTree = "<group>"; };
+		CC83402D24DA6C010095F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC83403224DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yasmin_A_PizzaExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC83403624DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasmin_A_PizzaExerciseUITests.swift; sourceTree = "<group>"; };
+		CC83403824DA6C010095F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC83404424DA6FCC0095F22C /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pizza.jpg; path = ../../../../../Downloads/pizza.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC83400E24DA6C000095F22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83402424DA6C010095F22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83402F24DA6C010095F22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC83400824DA6C000095F22C = {
+			isa = PBXGroup;
+			children = (
+				CC83401324DA6C000095F22C /* Yasmin_A_PizzaExercise */,
+				CC83402A24DA6C010095F22C /* Yasmin_A_PizzaExerciseTests */,
+				CC83403524DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests */,
+				CC83401224DA6C000095F22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC83401224DA6C000095F22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC83401124DA6C000095F22C /* Yasmin_A_PizzaExercise.app */,
+				CC83402724DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.xctest */,
+				CC83403224DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC83401324DA6C000095F22C /* Yasmin_A_PizzaExercise */ = {
+			isa = PBXGroup;
+			children = (
+				CC83401424DA6C000095F22C /* AppDelegate.swift */,
+				CC83401624DA6C000095F22C /* SceneDelegate.swift */,
+				CC83401824DA6C000095F22C /* ViewController.swift */,
+				CC83401A24DA6C000095F22C /* Main.storyboard */,
+				CC83404424DA6FCC0095F22C /* pizza.jpg */,
+				CC83401D24DA6C010095F22C /* Assets.xcassets */,
+				CC83401F24DA6C010095F22C /* LaunchScreen.storyboard */,
+				CC83402224DA6C010095F22C /* Info.plist */,
+			);
+			path = Yasmin_A_PizzaExercise;
+			sourceTree = "<group>";
+		};
+		CC83402A24DA6C010095F22C /* Yasmin_A_PizzaExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC83402B24DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.swift */,
+				CC83402D24DA6C010095F22C /* Info.plist */,
+			);
+			path = Yasmin_A_PizzaExerciseTests;
+			sourceTree = "<group>";
+		};
+		CC83403524DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC83403624DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.swift */,
+				CC83403824DA6C010095F22C /* Info.plist */,
+			);
+			path = Yasmin_A_PizzaExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC83401024DA6C000095F22C /* Yasmin_A_PizzaExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC83403B24DA6C010095F22C /* Build configuration list for PBXNativeTarget "Yasmin_A_PizzaExercise" */;
+			buildPhases = (
+				CC83400D24DA6C000095F22C /* Sources */,
+				CC83400E24DA6C000095F22C /* Frameworks */,
+				CC83400F24DA6C000095F22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yasmin_A_PizzaExercise;
+			productName = Yasmin_A_PizzaExercise;
+			productReference = CC83401124DA6C000095F22C /* Yasmin_A_PizzaExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC83402624DA6C010095F22C /* Yasmin_A_PizzaExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC83403E24DA6C010095F22C /* Build configuration list for PBXNativeTarget "Yasmin_A_PizzaExerciseTests" */;
+			buildPhases = (
+				CC83402324DA6C010095F22C /* Sources */,
+				CC83402424DA6C010095F22C /* Frameworks */,
+				CC83402524DA6C010095F22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC83402924DA6C010095F22C /* PBXTargetDependency */,
+			);
+			name = Yasmin_A_PizzaExerciseTests;
+			productName = Yasmin_A_PizzaExerciseTests;
+			productReference = CC83402724DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC83403124DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC83404124DA6C010095F22C /* Build configuration list for PBXNativeTarget "Yasmin_A_PizzaExerciseUITests" */;
+			buildPhases = (
+				CC83402E24DA6C010095F22C /* Sources */,
+				CC83402F24DA6C010095F22C /* Frameworks */,
+				CC83403024DA6C010095F22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC83403424DA6C010095F22C /* PBXTargetDependency */,
+			);
+			name = Yasmin_A_PizzaExerciseUITests;
+			productName = Yasmin_A_PizzaExerciseUITests;
+			productReference = CC83403224DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC83400924DA6C000095F22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Yasmin Alberto Ruiz";
+				TargetAttributes = {
+					CC83401024DA6C000095F22C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CC83402624DA6C010095F22C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC83401024DA6C000095F22C;
+					};
+					CC83403124DA6C010095F22C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CC83401024DA6C000095F22C;
+					};
+				};
+			};
+			buildConfigurationList = CC83400C24DA6C000095F22C /* Build configuration list for PBXProject "Yasmin_A_PizzaExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC83400824DA6C000095F22C;
+			productRefGroup = CC83401224DA6C000095F22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC83401024DA6C000095F22C /* Yasmin_A_PizzaExercise */,
+				CC83402624DA6C010095F22C /* Yasmin_A_PizzaExerciseTests */,
+				CC83403124DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC83400F24DA6C000095F22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83402124DA6C010095F22C /* LaunchScreen.storyboard in Resources */,
+				CC83401E24DA6C010095F22C /* Assets.xcassets in Resources */,
+				CC83404524DA6FCC0095F22C /* pizza.jpg in Resources */,
+				CC83401C24DA6C000095F22C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83402524DA6C010095F22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83403024DA6C010095F22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC83400D24DA6C000095F22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83401924DA6C000095F22C /* ViewController.swift in Sources */,
+				CC83401524DA6C000095F22C /* AppDelegate.swift in Sources */,
+				CC83401724DA6C000095F22C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83402324DA6C010095F22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83402C24DA6C010095F22C /* Yasmin_A_PizzaExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83402E24DA6C010095F22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83403724DA6C010095F22C /* Yasmin_A_PizzaExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC83402924DA6C010095F22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC83401024DA6C000095F22C /* Yasmin_A_PizzaExercise */;
+			targetProxy = CC83402824DA6C010095F22C /* PBXContainerItemProxy */;
+		};
+		CC83403424DA6C010095F22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC83401024DA6C000095F22C /* Yasmin_A_PizzaExercise */;
+			targetProxy = CC83403324DA6C010095F22C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC83401A24DA6C000095F22C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC83401B24DA6C000095F22C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC83401F24DA6C010095F22C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC83402024DA6C010095F22C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC83403924DA6C010095F22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC83403A24DA6C010095F22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC83403C24DA6C010095F22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_PizzaExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-PizzaExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC83403D24DA6C010095F22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_PizzaExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-PizzaExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC83403F24DA6C010095F22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_PizzaExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-PizzaExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasmin_A_PizzaExercise.app/Yasmin_A_PizzaExercise";
+			};
+			name = Debug;
+		};
+		CC83404024DA6C010095F22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_PizzaExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-PizzaExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasmin_A_PizzaExercise.app/Yasmin_A_PizzaExercise";
+			};
+			name = Release;
+		};
+		CC83404224DA6C010095F22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_PizzaExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-PizzaExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yasmin_A_PizzaExercise;
+			};
+			name = Debug;
+		};
+		CC83404324DA6C010095F22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_PizzaExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-PizzaExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yasmin_A_PizzaExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC83400C24DA6C000095F22C /* Build configuration list for PBXProject "Yasmin_A_PizzaExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83403924DA6C010095F22C /* Debug */,
+				CC83403A24DA6C010095F22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC83403B24DA6C010095F22C /* Build configuration list for PBXNativeTarget "Yasmin_A_PizzaExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83403C24DA6C010095F22C /* Debug */,
+				CC83403D24DA6C010095F22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC83403E24DA6C010095F22C /* Build configuration list for PBXNativeTarget "Yasmin_A_PizzaExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83403F24DA6C010095F22C /* Debug */,
+				CC83404024DA6C010095F22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC83404124DA6C010095F22C /* Build configuration list for PBXNativeTarget "Yasmin_A_PizzaExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC83404224DA6C010095F22C /* Debug */,
+				CC83404324DA6C010095F22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC83400924DA6C000095F22C /* Project object */;
+}
